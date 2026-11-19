@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <script src="script.js"></script>
+
+    <title>Project Checklist</title>
+
+    <!--
+        ============================================================
+        BOOTSTRAP-STYLE RESPONSIVE CSS
+        ============================================================
+
+        This is an embedded, self-contained subset of Bootstrap-style
+        layout/components. It is intentionally embedded so the file
+        remains completely usable when opened offline.
+
+        The application therefore does NOT depend on:
+        - Bootstrap CDN
+        - JavaScript CDN
+        - external CSS
+        - external fonts
+    -->
+
+</head>
+
+<body>
+
+<!-- =============================================================
+     MAIN APPLICATION
+     ============================================================= -->
+
+<nav class="navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Project Checklist</a>
+    </div>
+</nav>
+
+<main class="container-fluid mt-3">
+
+    <!-- =========================================================
+         APPLICATION HEADER
+         ========================================================= -->
+
+    <section class="app-header text-center">
+        <h1 class="app-title">Project Checklist</h1>
+
+        <p class="text-muted">
+            Drag the ☷ handle to move tasks and arrange them by priority.
+        </p>
+    </section>
+
+
+    <!-- =========================================================
+         MAIN TOOLBAR
+         ========================================================= -->
+
+    <section class="toolbar">
+
+        <div class="row">
+
+            <!-- Task input -->
+            <div class="col-12 col-md-6 mb-2">
+
+                <label class="small text-muted">
+                    New task
+                </label>
+
+                <input
+                    type="text"
+                    id="new-task"
+                    class="form-control"
+                    placeholder="What needs to be done?"
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <!-- Project selector -->
+            <div class="col-12 col-md-6 mb-2">
+
+                <label class="small text-muted">
+                    Project
+                </label>
+
+                <select id="project-selector" class="form-select"></select>
+
+            </div>
+
+        </div>
+
+
+        <!-- Main task controls -->
+        <div class="d-flex flex-wrap gap-2 mt-2">
+
+            <button
+                id="add-task-btn"
+                class="btn btn-primary"
+                type="button"
+            >
+                + Add Task
+            </button>
+
+            <button
+                id="delete-checked-btn"
+                class="btn btn-danger"
+                type="button"
+            >
+                Delete Completed
+            </button>
+
+            <button
+                id="clear-all-btn"
+                class="btn btn-outline-secondary"
+                type="button"
+            >
+                Clear All
+            </button>
+
+            <button
+                id="export-btn"
+                class="btn btn-outline-secondary"
+                type="button"
+            >
+                Export
+            </button>
+
+            <button
+                id="import-btn"
+                class="btn btn-outline-secondary"
+                type="button"
+            >
+                Import
+            </button>
+
+            <input
+                type="file"
+                id="import-file"
+                accept=".json,application/json"
+                style="display:none"
+            >
+
+            <button
+                id="github-toggle"
+                class="btn btn-success"
+                type="button"
+            >
+                GitHub Sync
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             GITHUB ONLINE STORAGE SETTINGS
+             ===================================================== -->
+
+        <div id="github-panel" class="github-panel">
+
+            <h3>GitHub Storage</h3>
+
+            <p class="small text-muted">
+                Local storage always works offline. GitHub synchronization
+                is optional and only happens when you explicitly save or load.
+            </p>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6 mb-2">
+
+                    <label class="small text-muted">
+                        GitHub username / owner
+                    </label>
+
+                    <input
+                        id="github-owner"
+                        class="form-control"
+                        type="text"
+                        placeholder="your-github-name"
+                    >
+
+                </div>
+
+
+                <div class="col-12 col-md-6 mb-2">
+
+                    <label class="small text-muted">
+                        Repository
+                    </label>
+
+                    <input
+                        id="github-repo"
+                        class="form-control"
+                        type="text"
+                        placeholder="checklist"
+                    >
+
+                </div>
+
+
+                <div class="col-12 col-md-6 mb-2">
+
+                    <label class="small text-muted">
+                        File path
+                    </label>
+
+                    <input
+                        id="github-path"
+                        class="form-control"
+                        type="text"
+                        value="checklist-data.json"
+                    >
+
+                </div>
+
+
+                <div class="col-12 col-md-6 mb-2">
+
+                    <label class="small text-muted">
+                        GitHub Personal Access Token
+                    </label>
+
+                    <input
+                        id="github-token"
+                        class="form-control"
+                        type="password"
+                        placeholder="github_pat_..."
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="d-flex flex-wrap gap-2 mt-2">
+
+                <button
+                    id="github-save"
+                    class="btn btn-success"
+                    type="button"
+                >
+                    Save to GitHub
+                </button>
+
+                <button
+                    id="github-load"
+                    class="btn btn-primary"
+                    type="button"
+                >
+                    Load from GitHub
+                </button>
+
+            </div>
+
+
+            <div
+                id="github-status"
+                class="status"
+                role="status"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PROJECT SECTIONS
+         =========================================================
+
+         JavaScript creates all project sections below.
+
+         This keeps the HTML compact while still providing:
+         - 10 Work areas
+         - 10 Personal areas
+         - 10 Miscellaneous areas
+         ========================================================= -->
+
+    <div id="project-container"></div>
+
+</main>
+
+</body>
+</html>
