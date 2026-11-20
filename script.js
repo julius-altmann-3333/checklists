@@ -60,7 +60,8 @@
 
         projects: [
             "Scanshop",
-            "Carvebench"
+            "Carvebench",
+            "Mampfshop"
         ]
     };
 
