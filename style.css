@@ -636,3 +636,9 @@
                 margin-top: 1rem;
             }
         }
+
+@media (min-width: 1200px) {
+    .jump-select {
+        width: 50%;
+    }
+}
