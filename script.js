@@ -348,6 +348,37 @@
     }
 
 
+function buildJumpSelector() {
+
+    const jump = document.getElementById("jump-selector");
+
+    jump.innerHTML = '<option value="">Jump to project…</option>';
+
+    Object.keys(PROJECTS).forEach(category => {
+
+        const group = document.createElement("optgroup");
+        group.label = category.charAt(0).toUpperCase() + category.slice(1);
+
+        PROJECTS[category].forEach(project => {
+            const option = document.createElement("option");
+            option.value = "project-" + category + "-" + project.replace(/\s+/g, "-");
+            option.textContent = project;
+            group.appendChild(option);
+        });
+
+        jump.appendChild(group);
+    });
+
+    jump.addEventListener("change", () => {
+        const target = document.getElementById(jump.value);
+        if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        jump.value = "";   // reset so the same project can be picked again
+    });
+}
+
+
     /* =============================================================
        RENDER THE COMPLETE APPLICATION
        ============================================================= */
@@ -419,6 +450,7 @@
                 column.className =
                     "col-12 col-md-6 col-xl-4";
 
+                column.id = "project-" + category + "-" + project.replace(/\s+/g, "-");
 
                 const card =
                     document.createElement("div");
@@ -2388,6 +2420,8 @@
     loadLocalData();
 
     buildProjectSelector();
+
+    buildJumpSelector();
 
     loadGithubSettings();
 
