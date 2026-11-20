@@ -1,0 +1,282 @@
+{
+  "projects": {
+    "checklist": {
+      "checklist": [
+        {
+          "id": "mwovhai9-65cg6210",
+          "text": "adjust checklist so data which are written and stored offline are synced with the online version",
+          "finished": false
+        },
+        {
+          "id": "mwni4kqp-a4hswx8b",
+          "text": "make the displaying function for github online version functional",
+          "finished": false
+        },
+        {
+          "id": "mwnh3au2-by08g3uu",
+          "text": "get checklist online on github",
+          "finished": false
+        },
+        {
+          "id": "mwnh0igx-uz4kzyse",
+          "text": "add functionality for scrolling to project below the new task section with a search field and scroll to button",
+          "finished": false
+        }
+      ]
+    },
+    "work": {
+      "Industry": [
+        {
+          "id": "mwnguh3q-ehlye857",
+          "text": "add project name selectore",
+          "finished": false
+        }
+      ],
+      "Code": [
+        {
+          "id": "mwnifjfw-a7ua8992",
+          "text": "create frameworks for various online projects like shops and landingpages where just the themes and content needs to be adjusted - member areas and dashboards as well - and functionality code snippets",
+          "finished": false
+        }
+      ],
+      "Clients": [],
+      "Marketing": [],
+      "Finance": [],
+      "Sales": [],
+      "Operations": [],
+      "Research": [],
+      "Meetings": [],
+      "Administration": []
+    },
+    "personal": {
+      "Dentist": [
+        {
+          "id": "mt03b9tk-wew0qzf5",
+          "text": "adjust height of team section",
+          "finished": false
+        },
+        {
+          "id": "mt03882p-nruy2nh5",
+          "text": "add content to the service cards",
+          "finished": false
+        },
+        {
+          "id": "mt0381i4-118nft6b",
+          "text": "adjust the css text  styling for both languages - so it looks the same in each language",
+          "finished": false
+        },
+        {
+          "id": "mt037kgr-m8dhoi4k",
+          "text": "functionalize the email autoresponder",
+          "finished": false
+        },
+        {
+          "id": "mt0375yu-57eoh42v",
+          "text": "adjust the translation button",
+          "finished": false
+        },
+        {
+          "id": "mt0371ro-7b9sw0rv",
+          "text": "all translations checked",
+          "finished": false
+        },
+        {
+          "id": "mt036ucy-3yw0h1vw",
+          "text": "check the texts for sense",
+          "finished": false
+        },
+        {
+          "id": "mt036pgs-dmkcdm8o",
+          "text": "right side overflow px thing related to seperate width sizings",
+          "finished": false
+        },
+        {
+          "id": "mt0364ug-pty58nxx",
+          "text": "translation google maps section",
+          "finished": false
+        },
+        {
+          "id": "mt027t8q-eyz42emy",
+          "text": "third cool task + Coolness²",
+          "finished": false
+        }
+      ],
+      "Fitness": [],
+      "Family": [],
+      "Home": [],
+      "Travel": [],
+      "Learning": [],
+      "Health": [],
+      "Appointments": [],
+      "Personal Finance": [],
+      "Shopping": []
+    },
+    "miscellaneous": {
+      "Investment": [],
+      "Side Project": [],
+      "Real Estate": [
+        {
+          "id": "mtu6fmo6-okgy2b04",
+          "text": "remove overlay hero section",
+          "finished": false
+        },
+        {
+          "id": "mt8k7wlp-rro3gn5v",
+          "text": "new task",
+          "finished": false
+        }
+      ],
+      "Ideas": [],
+      "Errands": [],
+      "Car": [
+        {
+          "id": "mtu5p0qn-rvt5lehq",
+          "text": "upload to github",
+          "finished": false
+        },
+        {
+          "id": "mtu5owp7-kb4ufbhm",
+          "text": "add color framework switch",
+          "finished": false
+        },
+        {
+          "id": "mt8jjx10-62ggftp4",
+          "text": "setup email functionality",
+          "finished": false
+        },
+        {
+          "id": "mt8jivle-dl6s3a2b",
+          "text": "language switch button color adjustment in mobile version",
+          "finished": false
+        },
+        {
+          "id": "mt8jhu1c-a02aju0q",
+          "text": "upload file for data upload - landingpage and/or pdf",
+          "finished": false
+        },
+        {
+          "id": "mt8jgu19-4gxthsrh",
+          "text": "adjust the autoscroll functions so it scrolls to the section starts",
+          "finished": false
+        },
+        {
+          "id": "mt8je88k-1qcmnfbm",
+          "text": "adjust the youtube embed so the video is visible as an actual embed, yet keep the channel-style-section",
+          "finished": false
+        },
+        {
+          "id": "mt8j3z04-tuk5j809",
+          "text": "adjust horizontal slider with hover clickable links to other landingpages",
+          "finished": false
+        },
+        {
+          "id": "mt8jmfn5-oz23wzie",
+          "text": "setup the entire json and js files, so it can be multiplied quickly",
+          "finished": false
+        },
+        {
+          "id": "mt8j2jf3-7lm9semc",
+          "text": "disable autoslider so the page doesnt automatically scroll to the image slider",
+          "finished": true
+        }
+      ],
+      "Documents": [],
+      "Networking": [],
+      "Hobbies": [],
+      "Other": []
+    },
+    "projects": {
+      "Scanshop": [
+        {
+          "id": "mwnh1a1l-zsmqztm0",
+          "text": "add language switch button with full functionality for the entire page",
+          "finished": false
+        }
+      ],
+      "Carvebench": [
+        {
+          "id": "mwnh2qqz-7vzha2cb",
+          "text": "add detail cnc product manufacting 3D tools in form of buttons and functionality to operating dashboard",
+          "finished": false
+        }
+      ],
+      "Mampfshop": [
+        {
+          "id": "mwowj3mb-q1s3amud",
+          "text": "A database for products and restaurant information.    Cloud image storage.    Permissions so each restaurant can only edit its own products.    Automatic publication of approved products on the main Gourmet Luxe shop.",
+          "finished": false
+        },
+        {
+          "id": "mwowic8y-5jldwjqa",
+          "text": "create logins",
+          "finished": false
+        },
+        {
+          "id": "mwowi255-8066s4s7",
+          "text": "split + upload dashboard",
+          "finished": false
+        },
+        {
+          "id": "mwowhojl-twujdx7a",
+          "text": "add languages and language switch buttons",
+          "finished": false
+        },
+        {
+          "id": "mwovkowd-rih4oj65",
+          "text": "remove view mainshop buttons",
+          "finished": false
+        },
+        {
+          "id": "mwovics4-ylinr6qj",
+          "text": "add search store / restaurant functionality to search function",
+          "finished": false
+        },
+        {
+          "id": "mwovg104-bpgc4lqq",
+          "text": "modal functionality for map opening in store front pages",
+          "finished": false
+        },
+        {
+          "id": "mwoulldn-murgtgsd",
+          "text": "add functionality for restaurants modal with their account with all their products (and corporate profile)",
+          "finished": false
+        },
+        {
+          "id": "mwouk7c3-0s6yncvf",
+          "text": "add email and phone order confirmation for checkout process",
+          "finished": false
+        },
+        {
+          "id": "mwouhom4-s9fscjg8",
+          "text": "checkout form - overflow y scroll (with non-visible scrollbar)",
+          "finished": false
+        },
+        {
+          "id": "mwougql7-181fmtw6",
+          "text": "contact field functionality - even necessary?",
+          "finished": false
+        },
+        {
+          "id": "mwnidk0h-dq48dsx5",
+          "text": "add search functionality",
+          "finished": false
+        },
+        {
+          "id": "mwni9hm7-gypn2iu3",
+          "text": "create an upload form for data for food which gets exported to a json file and added to the shop",
+          "finished": false
+        },
+        {
+          "id": "mwni8tyf-pbp04hsn",
+          "text": "add image galleries for each product with multiple images with a thumbnail horizontal slider function and images incl. as well with detailed description and pricing and ingredients",
+          "finished": false
+        },
+        {
+          "id": "mwni7v1m-7iy11emi",
+          "text": "improve the checkout cart functionality with local pickup",
+          "finished": false
+        }
+      ]
+    }
+  }
+}
