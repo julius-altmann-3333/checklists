@@ -61,7 +61,8 @@
         projects: [
             "Scanshop",
             "Carvebench",
-            "Mampfshop"
+            "Mampfshop",
+            "Real Estate Landingpage Maison Aurelia"
         ]
     };
 
