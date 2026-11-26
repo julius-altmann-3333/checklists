@@ -40,7 +40,10 @@
             "BuildDeck - 3D Development Software",
             "Aurelis Capital",
             "Onlineshop Platform",
-            "Webscraper"
+            "Webscraper",
+            "Dentist",
+            "Car Landingpage",
+            "Platform"
         ]
     };
 
