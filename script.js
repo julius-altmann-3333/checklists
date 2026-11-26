@@ -20,41 +20,15 @@
         ],
 
         work: [
-            "Industry",
-            "Code",
-            "Clients",
             "Marketing",
             "Finance",
             "Sales",
             "Operations",
-            "Research",
-            "Meetings",
-            "Administration"
-        ],
-
-        personal: [
-            "Dentist",
-            "Fitness",
-            "Family",
-            "Home",
-            "Travel",
-            "Learning",
-            "Health",
-            "Appointments",
-            "Personal Finance",
-            "Shopping"
+            "Research"
         ],
 
         miscellaneous: [
             "Investment",
-            "Side Project",
-            "Real Estate",
-            "Ideas",
-            "Errands",
-            "Car",
-            "Documents",
-            "Networking",
-            "Hobbies",
             "Other",
         ],
 
@@ -65,7 +39,8 @@
             "Real Estate Landingpage Maison Aurelia",
             "BuildDeck - 3D Development Software",
             "Aurelis Capital",
-            "Onlineshop Platform"
+            "Onlineshop Platform",
+            "Webscraper"
         ]
     };
 
