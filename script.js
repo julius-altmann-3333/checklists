@@ -62,7 +62,10 @@
             "Scanshop",
             "Carvebench",
             "Mampfshop",
-            "Real Estate Landingpage Maison Aurelia"
+            "Real Estate Landingpage Maison Aurelia",
+            "BuildDeck - 3D Development Software",
+            "Aurelis Capital",
+            "Onlineshop Platform"
         ]
     };
 
