@@ -1,18 +1,4 @@
 
-    /* =============================================================
-       PROJECT DEFINITIONS
-       =============================================================
-
-       There are 30 separate project areas.
-
-       Each project receives its own:
-       - section
-       - task list
-       - task counter
-       - drop zone
-       - priority ordering
-       ============================================================= */
-
     const PROJECTS = {
 
         checklist: [
