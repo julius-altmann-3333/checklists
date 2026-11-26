@@ -15,7 +15,7 @@
 
         miscellaneous: [
             "Investment",
-            "Other",
+            "Other"
         ],
 
         projects: [
